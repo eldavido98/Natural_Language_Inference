@@ -17,14 +17,10 @@ from transformers import (
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # download_ids = [train_set, test_set, adversarial_train_set, adversarial_test_set]
-download_ids = ['1QJ38pa4EZkpkW7XykVfnacnORrwuZ1gb',
-                '1JW06Jy-4rI0x452N8v0WNOmdV8J_wYCU',
-                '1GTNn5K89ASxDixB0CowSLj4vzhy395hP',
-                '1AGgznq-oKUAxcQr3shGNeZUm4coZ8gN6']
+# download_ids = ['1QJ38pa4EZkpkW7XykVfnacnORrwuZ1gb', '1JW06Jy-4rI0x452N8v0WNOmdV8J_wYCU', '1GTNn5K89ASxDixB0CowSLj4vzhy395hP', '1AGgznq-oKUAxcQr3shGNeZUm4coZ8gN6']
 
-path_main = "E:/Universita/2 Magistrale/18 CFU/3. Multilingual Natural Language Processing/Homework 2/Project/main"
-path_adv = "E:/Universita/2 Magistrale/18 CFU/3. Multilingual Natural Language Processing/Homework 2/Project/" \
-           "adversarial"
+path_main = "main"
+path_adv = "adversarial"
 
 main_language_model_name = "bert-base-cased"
 adv_language_model_name = "roberta-base"
@@ -239,3 +235,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
