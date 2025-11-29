@@ -13,11 +13,11 @@ The main script supports two optional modes for each model: **training** and **e
 You can enable them via command-line flags.
 
 ### Run Training
-```python main.py --train_b``` : trains the main model
+```python main.py --train_b``` : trains the main model  
 ```python main.py --train_a``` : trains the secondary model
 
 ### Run Evaluation
-```python main.py --evaluate_b``` : evaluates the main model
+```python main.py --evaluate_b``` : evaluates the main model  
 ```python main.py --evaluate_a``` : evaluates the secondary model
 
 
